@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+    ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+
+    background: var(--main-bg-color);
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 20px;
+    width: 500px;
+    margin: 0 16px 0 56px;
+    padding: 0;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+
+}
+
+
+.slider {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+
+}
+
+
+
+.card1 {
+    background-color: white;
+    margin-bottom: -16px;
+}
+
+
+.card1 h1 {
+    padding-left: 10px;
+}
+
+.card1 h4 {
+    padding-left: 10px;
+}
+
+
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.text {
+    display: flex;
+    background-color: white;
+}
+
+.text ul li {
+    list-style: none;
+}
+
+.text ul li a {
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+
+.text1 {
+    text-align: center;
+    padding-left: 41px;
+}
+
+.text2 {
+    text-align: center;
+    padding-left: 92px;
+}
+
+.text3 {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.text4 {
+    text-align: center;
+    padding-left: 109px;
+}
+
+
+.text5 {
+    padding-left: 95px;
+    text-align: center;
+}
+
+.text6 {
+    padding-left: 110px;
+    text-align: center;
+}
+
+.text7 {
+    padding-left: 102px;
+    text-align: center;
+}
+
+.card2 {
+    margin-top: 20px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.card-item-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: static;
+}
+
+ 
+
+.textsecond {
+    display: flex;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.textsecond ul li {
+    list-style: none;
+}
+
+.textsecond ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    color: green;
+}
+
+.card-item-2 {
+    margin-top: 2px;
+}
+
+.text2a {
+    padding-left: 41px;
+    text-align: center;
+}
+
+.text2b {
+    text-align: center;
+    padding-left: 92px;
+}
+
+.text2c {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.text2d {
+    padding-left: 109px;
+    text-align: center;
+}
+
+.text2e {
+    padding-left: 95px;
+    text-align: center;
+}
+
+.text2f {
+    padding-left: 110px;
+    text-align: center;
+}
+
+.text2g {
+    padding-left: 102px;
+    text-align: center;
+}
+
+.card3 {
+    padding-left: 10px;
+    background-color: white;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.card-item-3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: static;
+    
+}
+
+
+.text3a {
+    padding-left: 41px;
+    text-align: center;
+}
+
+.text3b {
+    padding-left: 92px;
+    text-align: center;
+}
+
+.text3c {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.text3d {
+    padding-left: 109px;
+    text-align: center;
+}
+
+.text3e {
+    padding-left: 95px;
+    text-align: center;
+}
+
+.text3f {
+    padding-left: 110px;
+    text-align: center;
+}
+
+.text3g {
+    padding-left: 102px;
+    text-align: center;
+}
+
+.card4 {
+    padding-left: 10px;
+    background-color: white;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.card-item-4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: static;
+}
+
+.text4a {
+    padding-left: 41px;
+    text-align: center;
+}
+
+.text4b {
+    padding-left: 92px;
+    text-align: center;
+}
+
+.text4c {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.text4d {
+    padding-left: 109px;
+    text-align: center;
+}
+
+.text4e {
+    padding-left: 95px;
+    text-align: center;
+}
+
+.text4f {
+    padding-left: 110px;
+    text-align: center;
+}
+
+.text4g {
+    padding-left: 102px;
+    text-align: center;
+}
+
+
+
+.card5 {
+    padding-left: 10px;
+    background-color: white;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.card-item-5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: static;
+}
+
+.text5a {
+    text-align: center;
+    padding-left: 41px;
+}
+
+.text5b {
+    padding-left: 92px;
+    text-align: center;
+}
+
+.text5c {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.text5d {
+    padding-left: 109px;
+    text-align: center;
+}
+
+.text5e {
+    padding-left: 95px;
+    text-align: center;
+}
+
+.text5f {
+    padding-left: 110px;
+    text-align: center;
+}
+
+.text5g {
+    padding-left: 102px;
+    text-align: center;
+}
